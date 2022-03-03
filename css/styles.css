@@ -1,0 +1,38 @@
+.top-row
+    {
+        height: 150px;
+        border: solid black;
+        width: 97%;
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        background-color: #776fbf;
+    }
+
+.columns
+    {
+        display: flex;
+        justify-content: space-around;
+    }
+
+.red, .green, .orange
+    {
+        height: 800px;
+        width: 30%;
+        border: solid black;
+    }
+
+.red
+    {
+        background-color: #d95945;
+    }
+
+.green
+    {
+        background-color: #80b87d;
+    }
+
+.orange
+    {
+        background-color: #eb9100;
+    }
